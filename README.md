@@ -7,6 +7,12 @@ unit-tested analytics core.
 No login or API key required — reads Upstox's public option-chain endpoint.
 Data is delayed, not live.
 
+## Screenshots
+
+![Option Chain Pro](Screenshot/Screenshot1.png)
+
+![Option Chain Pro Table](Screenshot/Screenshot2.png)
+
 ## Features
 
 - **Full option chain**: CE/PE LTP, OI, Volume, IV, PoP, Greeks (Δ Γ Θ Vega),
