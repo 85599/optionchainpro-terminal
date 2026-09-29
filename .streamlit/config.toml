@@ -1,0 +1,11 @@
+# OptionChainPro — dark trading-terminal theme
+[theme]
+base = "dark"
+primaryColor = "#3B82F6"
+backgroundColor = "#020617"
+secondaryBackgroundColor = "#0E1223"
+textColor = "#F8FAFC"
+font = "monospace"
+
+[browser]
+gatherUsageStats = false
