@@ -397,7 +397,7 @@ with tab1:
 
     st.dataframe(
         display.style.apply(style_rows, axis=1),
-        use_container_width=True,
+        width="stretch",
         height=min(720, 42 + 35 * len(display)),
         hide_index=True,
     )
@@ -443,7 +443,7 @@ with tab2:
     fig.update_xaxes(gridcolor=BORDER, linecolor=BORDER, zeroline=False, title_text="Strike", row=2, col=1)
     fig.update_yaxes(gridcolor=BORDER, linecolor=BORDER, zeroline=False, title_text="OI", row=1, col=1)
     fig.update_yaxes(gridcolor=BORDER, linecolor=BORDER, zeroline=False, title_text="Volume", row=2, col=1)
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
 with tab3:
     st.markdown(f"**Max Pain: `{mp_strike:,.0f}`** — the strike where option *writers* collectively "
@@ -466,7 +466,7 @@ with tab3:
     )
     fig2.update_xaxes(gridcolor=BORDER, linecolor=BORDER, zeroline=False)
     fig2.update_yaxes(gridcolor=BORDER, linecolor=BORDER, zeroline=False)
-    st.plotly_chart(fig2, use_container_width=True)
+    st.plotly_chart(fig2, width="stretch")
 
 with tab4:
     c1, c2 = st.columns(2)
